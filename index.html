@@ -1,0 +1,47 @@
+<html>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+<link rel="icon" href="https://img.icons8.com/color/48/000000/nepal.png" style="border-radius: 50%;" type="image/x-icon">
+  <title>Pradip Banjara || Scoreboard</title>
+
+    </head>
+
+    <body>
+        <h1>भलिबल प्रतियोगिता</h1>
+        <div class="container">
+
+            <div class="members">
+                    <div class="team" id="team-a">
+                        <h3>भिमसेनथापा</h3>
+                        <div class="score-box" id="score-el-a">0</div>
+                        <div class="btn-link">
+                            <button class="btn" onclick="scoreA1()"> +1 </button>
+                        </div> <!-- /btn-link -->
+                    </div><!-- /team -->
+
+
+
+                    <div class="team" id="team-b">
+                        <h3>सहिदलखन</h3>
+                        <div class="score-box" id="score-el-b">0</div>
+                        <div class="btn-link">
+                            <button class="btn" onclick="scoreB1()"> +1 </button>
+                        </div><!-- /btn-link -->
+                    </div><!-- /team -->
+
+            </div>
+            <div class="result">
+                <button id="start-btn" onclick="restart()">New Game</button>
+                <p id="winner"></p>
+            </div> <!-- /result -->
+
+
+        </div><!-- /container -->
+            <script src="index.js"></script>
+    </body>
+
+</html>
